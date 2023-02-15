@@ -1,0 +1,339 @@
+<template>
+  <div class="container grid grid-cols-12 -my-3 min-h-screen relative z-10">
+    <div class="col-span-3 bg-gray-800 py-10">
+      <a href="" class="intro-x flex items-center pl-5 mb-8">
+        <img
+          alt="Topson Tailwind HTML Admin Template"
+          class="w-8"
+          src="dist/images/logo.svg"
+        />
+        <span class="hidden xl:block text-2xl ml-3"> Topson Docs </span>
+      </a>
+      <a
+        href="index.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Getting Started</a
+      >
+      <a
+        href="file-structure.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+          font-medium
+          bg-gray-900
+        "
+        >File Structure</a
+      >
+      <a
+        href="installation.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Installation</a
+      >
+      <a
+        href="style-customization.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Style Customization</a
+      >
+      <a
+        href="javascript.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Javascript</a
+      >
+      <a
+        href="attributions.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Attributions</a
+      >
+      <a
+        href="support.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Support</a
+      >
+      <a
+        href="changelog.html"
+        class="
+          intro-x
+          flex
+          items-center
+          px-5
+          py-3
+          rounded-l
+          hover:bg-gray-900
+          transition
+          duration-300
+          ease-in-out
+        "
+        >Changelog</a
+      >
+    </div>
+    <div class="col-span-9 border-l border-gray-800 bg-gray-900 py-10 px-10">
+      <h1
+        class="intro-y text-2xl font-medium pb-8 mb-10 border-b border-gray-800"
+      >
+        File Structure
+      </h1>
+      <h2
+        class="intro-y text-xl font-medium pb-5 mb-5 border-b border-gray-800"
+      >
+        File Structure
+      </h2>
+      <div class="intro-y leading-relaxed">
+        <p class="mb-3">
+          After downloading the template, you will find 3 files in it. If you
+          want to directly use this template without making modifications you
+          can immediately use the file in the compiled directory. This directory
+          contains compiled and minified file that ready for production. But if
+          you want to do some modifications like adding or removing new
+          components or parts you will be better to use the files from source
+          directory.
+        </p>
+        <p>
+          The file tree below will describes more clearly about the file
+          structure.
+        </p>
+      </div>
+      <div class="intro-y flex items-start mt-10">
+        <div class="intro-y">
+          <ul class="zoom-in w-64 pb-8 pt-6 px-8 rounded-md bg-gray-800 mr-5">
+            <li>
+              <div class="flex items-center font-medium">
+                <i data-feather="folder" class="w-5 h-5 mr-3"></i> Source
+              </div>
+              <ul>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> css
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> fonts
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> images
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> js
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> src
+                  </div>
+                  <ul>
+                    <li class="ml-5 mt-4">
+                      <div class="flex items-center">
+                        <i data-feather="folder" class="w-5 h-5 mr-3"></i> sass
+                      </div>
+                    </li>
+                    <li class="ml-5 mt-4">
+                      <div class="flex items-center">
+                        <i data-feather="folder" class="w-5 h-5 mr-3"></i> fonts
+                      </div>
+                    </li>
+                    <li class="ml-5 mt-4">
+                      <div class="flex items-center">
+                        <i data-feather="folder" class="w-5 h-5 mr-3"></i>
+                        images
+                      </div>
+                    </li>
+                    <li class="ml-5 mt-4">
+                      <div class="flex items-center">
+                        <i data-feather="folder" class="w-5 h-5 mr-3"></i> js
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    package.json
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    webpack.mix.js
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    index.html
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i> ...
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="intro-y">
+          <ul class="zoom-in w-64 pb-8 pt-6 px-8 rounded-md bg-gray-800 mr-5">
+            <li>
+              <div class="flex items-center font-medium">
+                <i data-feather="folder" class="w-5 h-5 mr-3"></i> Compiled
+              </div>
+              <ul>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> css
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> fonts
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> images
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="folder" class="w-5 h-5 mr-3"></i> js
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    index.html
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i> ...
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="intro-y">
+          <ul class="zoom-in w-64 pb-8 pt-6 px-8 rounded-md bg-gray-800">
+            <li>
+              <div class="flex items-center font-medium">
+                <i data-feather="folder" class="w-5 h-5 mr-3"></i> Documentation
+              </div>
+              <ul>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    attributions.html
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    changelog.html
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i>
+                    index.html
+                  </div>
+                </li>
+                <li class="ml-5 mt-4">
+                  <div class="flex items-center">
+                    <i data-feather="file-text" class="w-5 h-5 mr-3"></i> ...
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style scoped>
+</style>
