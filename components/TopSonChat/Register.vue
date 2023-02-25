@@ -4,18 +4,10 @@
       <img
         class="intro-y mx-auto w-16"
         alt="Topson Messenger Tailwind HTML Admin Template"
-        src="dist/images/logo.svg"
+        src="@/assets/images/logo.svg"
       />
       <div
-        class="
-          intro-y
-          text-gray-700
-          dark:text-gray-300
-          text-2xl
-          font-medium
-          text-center
-          mt-16
-        "
+        class="intro-y text-gray-700 dark:text-gray-300 text-2xl font-medium text-center mt-16"
       >
         Register New Account
       </div>
@@ -51,16 +43,7 @@
           </div>
           <a
             href=""
-            class="
-              intro-y
-              text-gray-600
-              dark:text-gray-300
-              block
-              mt-2
-              text-xs
-              sm:text-sm
-              -mb-1
-            "
+            class="intro-y text-gray-600 dark:text-gray-300 block mt-2 text-xs sm:text-sm -mb-1"
             >What is a secure password?</a
           >
           <input
@@ -70,16 +53,7 @@
           />
         </div>
         <div
-          class="
-            intro-x
-            flex
-            items-center
-            text-gray-700
-            dark:text-gray-600
-            mt-4
-            text-xs
-            sm:text-sm
-          "
+          class="intro-x flex items-center text-gray-700 dark:text-gray-600 mt-4 text-xs sm:text-sm"
         >
           <input
             type="checkbox"
@@ -103,15 +77,7 @@
         </div>
       </div>
       <div
-        class="
-          intro-y
-          leading-relaxed
-          text-gray-600
-          dark:text-gray-300
-          mt-10
-          text-center
-          xl:text-center
-        "
+        class="intro-y leading-relaxed text-gray-600 dark:text-gray-300 mt-10 text-center xl:text-center"
       >
         By signin up, you agree to our
         <br />

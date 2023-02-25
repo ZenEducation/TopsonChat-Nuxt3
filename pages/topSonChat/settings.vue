@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import Setting from "@/components/Top-son-chat/Setting/Setting.vue";
+import Setting from "@/components/TopSonChat/Settings.vue";
 </script>
 
 <style scoped>

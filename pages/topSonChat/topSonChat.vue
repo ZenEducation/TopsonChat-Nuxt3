@@ -1,9 +1,9 @@
 <template>
-  <Index />
+  <TopSonChat />
 </template>
 
 <script setup>
-import Index from "~~/components/TopSonChat/Top_Son_Chat.vue";
+import TopSonChat from "~~/components/TopSonChat/Top_Son_Chat.vue";
 </script>
 
 <style scoped>

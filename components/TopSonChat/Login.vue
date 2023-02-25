@@ -4,18 +4,10 @@
       <img
         class="intro-y mx-auto w-16"
         alt="Topson Messenger Tailwind HTML Admin Template"
-        src="dist/images/logo.svg"
+        src="@/assets/images/logo.svg"
       />
       <div
-        class="
-          intro-y
-          text-gray-700
-          dark:text-gray-300
-          text-2xl
-          font-medium
-          text-center
-          mt-16
-        "
+        class="intro-y text-gray-700 dark:text-gray-300 text-2xl font-medium text-center mt-16"
       >
         Login to Your Account!
       </div>
@@ -33,15 +25,7 @@
           />
         </div>
         <div
-          class="
-            intro-y
-            text-gray-600
-            dark:text-gray-300
-            flex
-            text-xs
-            sm:text-sm
-            mt-4
-          "
+          class="intro-y text-gray-600 dark:text-gray-300 flex text-xs sm:text-sm mt-4"
         >
           <div class="flex items-center mr-auto">
             <input
