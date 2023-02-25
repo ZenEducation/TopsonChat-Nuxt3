@@ -5,138 +5,48 @@
         <img
           alt="Topson Tailwind HTML Admin Template"
           class="w-8"
-          src="dist/images/logo.svg"
+          src="@/assets/dist/images/logo.svg"
         />
         <span class="hidden xl:block text-2xl ml-3"> Topson Docs </span>
       </a>
       <a
         href="index.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Getting Started</a
       >
       <a
         href="file-structure.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >File Structure</a
       >
       <a
         href="installation.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Installation</a
       >
       <a
         href="style-customization.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Style Customization</a
       >
       <a
         href="javascript.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Javascript</a
       >
       <a
         href="attributions.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-          font-medium
-          bg-gray-900
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out font-medium bg-gray-900"
         >Attributions</a
       >
       <a
         href="support.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Support</a
       >
       <a
         href="changelog.html"
-        class="
-          intro-x
-          flex
-          items-center
-          px-5
-          py-3
-          rounded-l
-          hover:bg-gray-900
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
         >Changelog</a
       >
     </div>
