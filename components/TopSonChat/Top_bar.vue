@@ -25,6 +25,7 @@
       <div class="h-full flex items-center">
         <div class="mr-3">Dark Mode</div>
         <input
+          @click="($event) => toggleDark()"
           class="form-check-switch"
           type="checkbox"
           id="dark-mode-switcher"
@@ -288,6 +289,16 @@
 <script setup>
 import feather from "feather-icons";
 import { onMounted } from "vue";
+import { useDark, useToggle } from "@vueuse/core";
+
+//dark mode
+const isDark = useDark({
+  selector: "body",
+  attribute: "class",
+  valueDark: "dark",
+  valueLight: "light",
+});
+const toggleDark = useToggle(isDark);
 onMounted(() => {
   feather.replace();
 });

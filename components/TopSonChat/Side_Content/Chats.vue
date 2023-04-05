@@ -1,7 +1,7 @@
 <template>
   <!-- BEGIN: Side Content Chats -->
   <div
-    class="side-content col-span-12 xl:col-span-3 -mt-16 xl:mt-0 pt-20 xl:-mr-6 px-6 xl:pt-6 side-content--active flex-col overflow-hidden"
+    class="col-span-12 xl:col-span-3 -mt-16 xl:mt-0 pt-20 xl:-mr-6 px-6 xl:pt-6 flex flex-col overflow-hidden"
     data-content="chats"
   >
     <div class="intro-y text-xl font-medium">Chats</div>

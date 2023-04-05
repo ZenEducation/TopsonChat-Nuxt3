@@ -67,6 +67,7 @@
       <div class="intro-y h-full box flex flex-col p-4 mt-3">
         <div class="text-base font-medium">Shared Files</div>
         <div class="mt-4 overflow-x-hidden overflow-y-auto scrollbar-hidden">
+<!-- start -->
           <div
             class="shared-file border-gray-200 dark:border-dark-5 flex items-center p-3 border rounded-md relative"
           >
@@ -79,6 +80,7 @@
                 JPG
               </div>
             </div>
+            <!-- start -->
             <div class="w-full ml-3">
               <div
                 class="text-gray-700 dark:text-gray-300 w-4/5 whitespace-nowrap font-medium truncate"
@@ -89,23 +91,21 @@
                 1.2 MB Image File
               </div>
             </div>
+            <!-- end -->
             <div
               class="dropdown absolute flex items-center top-0 bottom-0 right-0 mr-4 ml-auto"
             >
-              <a
-                class="dropdown-toggle w-4 h-4"
-                href="javascript:;"
-                aria-expanded="false"
-              >
+              <a class="dropdown-toggle w-4 h-4" href="#">
                 <i data-feather="more-vertical" class="w-4 h-4"></i>
               </a>
-              <div class="dropdown-menu w-40">
+              <div class="w-40">
                 <div class="dropdown-menu__content box dark:bg-dark-1 p-2">
                   <a
-                    href=""
+                    href="#"
                     class="flex items-center p-2 transition duration-300 ease-in-out bg-white dark:bg-dark-1 hover:bg-gray-200 dark:hover:bg-dark-2 rounded-md"
                   >
-                    <i data-feather="share-2" class="w-4 h-4 mr-2"></i> Share
+                    <i data-feather="share-2" class="w-4 h-4 mr-2"></i>
+                    Share
                   </a>
                   <a
                     href=""
@@ -118,6 +118,7 @@
               </div>
             </div>
           </div>
+<!-- end -->
           <div
             class="shared-file border-gray-200 dark:border-dark-5 flex items-center p-3 border rounded-md relative mt-3"
           >
@@ -145,7 +146,7 @@
             >
               <a
                 class="dropdown-toggle w-4 h-4"
-                href="javascript:;"
+                href="#"
                 aria-expanded="false"
               >
                 <i data-feather="more-vertical" class="w-4 h-4"></i>
@@ -1096,6 +1097,19 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+import { onClickOutside } from "@vueuse/core";
+import { defineComponent } from "vue";
+import Popper from "vue3-popper";
+
+const sharedFilesMenu = ref(false);
+const menu = ref(null);
+onClickOutside(menu, (event) => {
+  setSharedFilesMenu(false);
+});
+const setSharedFilesMenu = (val) => {
+  sharedFilesMenu.value = val;
+};
 </script>
 
 <style scoped>
